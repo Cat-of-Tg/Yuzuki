@@ -92,7 +92,8 @@ buttons = [
     ],
 
 
-HELP_STRINGS = "HELP BUTTONS HERE"
+HELP_STRINGS = """
+*『HELP BUTTONS HERE』*"""
 
 
 DONATE_STRING = """No need.. I'm rich"""
