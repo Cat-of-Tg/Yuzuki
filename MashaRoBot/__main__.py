@@ -86,17 +86,7 @@ buttons = [
     [
         InlineKeyboardButton(text="ℹ️ ABOUT", callback_data="masha_"),
         InlineKeyboardButton(text="📚 COMMANDS", callback_data="help_back"),
-    ],
-
-IMPORTED = {}
-MIGRATEABLE = []
-HELPABLE = {}
-STATS = []
-USER_INFO = []
-DATA_IMPORT = []
-DATA_EXPORT = []
-CHAT_SETTINGS = {}
-USER_SETTINGS = {}
+   ]
 
 for module_name in ALL_MODULES:
     imported_module = importlib.import_module("MashaRoBot.modules." + module_name)
