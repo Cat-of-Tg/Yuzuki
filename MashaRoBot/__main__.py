@@ -87,15 +87,6 @@ buttons = [
         InlineKeyboardButton(text="ℹ️ ABOUT", callback_data="masha_"),
         InlineKeyboardButton(text="📚 COMMANDS", callback_data="help_back"),
     ],
-	[
-        InlineKeyboardButton(text="CREATOR", callback_data="@mr_tharuwa"),
-    ],
-
-
-HELP_STRINGS ="""*HELP BUTTONS HERE*"""
-
-
-DONATE_STRING = """No need.. I'm rich"""
 
 IMPORTED = {}
 MIGRATEABLE = []
